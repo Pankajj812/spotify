@@ -4,7 +4,7 @@ export const authenticateMiddleware = (store) => (next) => (action) => {
       console.log(action);
     if (action?.payload?.error?.includes(401)) {
       localStorage.clear();
-      window.location.href = "http://localhost:3000";
+      window.location.href = "https://spotify-applay.netlify.app";
       return;
     }
 
