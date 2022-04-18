@@ -1,0 +1,29 @@
+.outerBox {
+    /* height: 100vh; */
+    background: black;
+}
+
+.typo {
+    font-size: 30px !important;
+    font-weight: 700 !important;
+    padding-right: 6px !important;
+    color: white !important;
+}
+
+.innerBox1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+.paper {
+    border-radius: 0px 7px 7px 0px !important;
+}
+
+.formctrl {
+    background: white;
+    width: 127px;
+    margin-left: 38% !important;
+    border-radius: 7px 0px 0px 7px;
+    margin-right: 1px !important;
+}

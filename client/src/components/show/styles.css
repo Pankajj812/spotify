@@ -1,0 +1,10 @@
+.showResult {
+    color: white !important;
+    padding-left: 37% !important;
+    font-size: 36px !important;
+    font-weight: 700 !important;
+    padding-bottom: 2% !important;
+}
+.item{
+    cursor: pointer;
+}
